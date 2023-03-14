@@ -1,0 +1,517 @@
+body {
+    font-family: VCR OSD Mono,sans-serif;
+    background-color: #111;
+}
+
+.main-wrapper {
+    border: 1px solid #0aff00;
+    height: 80vh;
+    overflow-y: scroll;
+    margin: auto auto 2px;
+    width: 925px;
+    padding-top: -10px;
+    background-color: #111;
+}
+
+ .main-wrapper-title-wrapper {
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-around;
+     margin-right: 725px;
+}
+
+
+.main-title-outside {
+    color: #0aff00;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+.main-title-inside {
+    color: #87CEEB;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-subtitle-inside {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.nav-wrapper {
+    position: relative;
+    display: flex;
+    border: 1px solid #0aff00;
+}
+
+.t {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    //margin-left: auto;
+    //margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+}
+
+.o {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    //margin-left: auto;
+    //margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+}
+
+
+.o_active {
+    position: relative;
+    display: flex;
+    jusitfy-content: center;
+    background-color: #0aff00;
+    //margin-left: auto;
+    //margin-right: auto;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.t_active {
+    position: relative;
+    display: flex;
+    jusitfy-content: center;
+    background-color: #0aff00;
+    //margin-left: auto;
+    //margin-right: auto;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.home-link-active {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #111;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact-link {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0aff00;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact-link-active {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #111;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.home-link {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0aff00;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contents-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 15px;
+}
+
+.grid-item {
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+.blog-button {
+    width: 275px;
+    margin-top: 15px;
+    padding-right: -15px;
+    border-radius: 5px;
+}
+
+.blog-link {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: #0aff00;
+    padding-left: 110px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #111;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: -7px;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    transition: background-color 0.35s;
+}
+
+.blog-button:hover {
+    box-shadow: 5px 5px 5px #0aff00;
+    background-color: #111;
+}
+
+.blog-link:hover {
+    background-color: #0aff00;
+    color: #111;
+    border: 1px solid #0aff00;
+}
+
+img {
+    border-radius: 5px;
+    border: 1px solid #0aff00;
+}
+
+.hackmacs-image {
+    padding-left: -25px;
+}
+
+.hackmacs-button {
+    margin-top: 25px;
+    width: 275px;
+}
+
+.hackmacs-link {
+    background-color: #111;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin: -15px -10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    color: #0aff00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.35s;
+}
+
+.hackmacs-link:hover {
+    background-color: #0aff00;
+    color: #111;
+    box-shadow: 5px 5px 5px #0aff00;
+    border: 1px solid #0aff00;
+}
+
+.hackmacs-button:hover {
+}
+
+.games-button {
+    margin-top: 26px;
+}
+
+.games-link {
+    background-color: #111;
+    color: #0aff00;
+    text-decoration: none;
+    padding: 15px 105px 15px 105px;
+    margin: -10px;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.35s;
+}
+
+.games-button:hover {
+}
+
+.games-link:hover {
+    background-color: #0aff00;
+    color: #111;
+    box-shadow: 5px 5px 5px #0aff00;
+}
+
+.github-button {
+    margin-top: 26px;
+}
+
+.github-link {
+    text-decoration: none;
+    background-color: #111;
+    padding: 15px 105px 15px 105px;
+    margin: -10px;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0aff00;
+    transition: background-color 0.35s;
+}
+
+.github-link:hover {
+    box-shadow: 5px 5px 5px #0aff00;
+    background-color: #0aff00;
+    color: #111;
+}
+
+.gittea-button {
+    margin-top: 26px;
+}
+
+.gittea-link {
+    text-decoration: none;
+    background-color: #111;
+    padding: 15px 105px 15px 105px;
+    margin: -10px;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0aff00;
+    transition: background-color 0.35s;
+}
+
+.gittea-link:hover {
+    box-shadow: 5px 5px 5px #0aff00;
+    background-color: #0aff00;
+    color: #111;
+}
+
+.libcasa-button {
+    margin-top: 26px;
+}
+
+.libcasa-link {
+    text-decoration: none;
+    background-color: #111;
+    padding: 15px 105px 15px 105px;
+    margin: -10px;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0aff00;
+    transition: background-color 0.35s;
+}
+
+.libcasa-link:hover {
+    box-shadow: 5px 5px 5px #0aff00;
+    background-color: #0aff00;
+    color: #111;
+}
+
+.about-title {
+    color: #0aff00;
+    padding-left: 15px;
+    font-size: 1.6rem;
+}
+
+.about-contents {
+    color: #0aff00;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2rem;
+}
+
+.manifesto {
+    color: #87ceeb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.manifesto:hover {
+    text-decoration: underline;
+}
+
+.hacker-ethic {
+    color: #87ceeb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hacker-ethic:hover {
+    text-decoration: underline;
+}
+
+.k-machine {
+    color: #87ceeb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.k-machine:hover {
+    text-decoration: underline;
+}
+
+.haru {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xmpp-info {
+    color: #0aff00;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.libcasa-info {
+    color: #0aff00;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.libera-info {
+    color: #0aff00;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.back-home-link {
+    position: relative;
+    display: flex;
+    color: #0aff00;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    width: 95px;
+}
+
+.back-home-link:hover {
+    text-decoration: underline;
+}
+
+.blog-post {
+    color: #0aff00;
+    padding-left: 30px;
+    font-size: 1.1rem;
+}
+
+.blog-post-link {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+.blog-post-link:hover {
+    text-decoration: underline;
+}
+
+.back-to-blog-list {
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #0aff00;
+    text-decoration: none;
+}
+
+.back-to-blog-list:hover {
+    text-decoration: underline;
+}
+
+.inprogress-title {
+    color: #0aff00;
+    text-align: center;
+}
+
+.inprogress-message {
+    color: #0aff00;
+    text-align: center;
+}
+
+.return-home {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: #0aff00;
+    font-weight: bold;
+}
+
+.return-home:hover {
+    text-decoration: underline;
+}
+
+.nkb {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-list-title {
+    color: #0aff00;
+    margin-left: 15px;
+}
+
+.game-contents {
+    color: #0aff00;
+    margin-left: 25px;
+    font-size: 1.1rem;
+}
+
+.game {
+    text-decoration: none;
+    color: #87ceeb;
+}
+
+.game:hover {
+    text-decoration: underline;
+}
+
+#gameCanvas {
+    position: relative;
+    display: flex;
+    border: 1px solid #0aff00;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instructions {
+    color: #87ceeb;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.back-to-games {
+    position: relative;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #0aff00;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.back-to-games:hover {
+    text-decoration: underline;
+}
+
+.blog-content-title {
+    color: #87ceeb;
+    text-align: center;
+}
+
+.blog-content-message {
+    color: #0aff00;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
