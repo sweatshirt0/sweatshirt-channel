@@ -146,7 +146,8 @@ body {
     //width: 275px;
     margin-top: 15px;
     //padding-right: -15px;
-    border-radius: 5px;
+    background-color: transparent;
+    border: none;
 }
 
 .blog-link {
@@ -154,7 +155,7 @@ body {
     display: flex;
     text-decoration: none;
     color: #0aff00;
-    padding: 15px 115px 15px 105px;
+    padding: 14px 115px 14px 110px;
     //padding-left: 110px;
     //padding-right: 150px;
     //padding-top: 15px;
@@ -162,7 +163,7 @@ body {
     background-color: #111;
     font-size: 1.3rem;
     font-weight: bold;
-    margin: -7px;
+    margin: -6px;
     border: 1px solid #0aff00;
     border-radius: 5px;
     transition: background-color 0.35s;
@@ -231,7 +232,7 @@ img {
     background-color: #111;
     color: #0aff00;
     text-decoration: none;
-    padding: 15px 100px 15px 105px;
+    padding: 15px 100px 15px 100px;
     margin: -5px;
     border: 1px solid #0aff00;
     border-radius: 5px;
@@ -302,7 +303,7 @@ img {
 .libcasa-link {
     text-decoration: none;
     background-color: #111;
-    padding: 15px 105px 15px 105px;
+    padding: 15px 100px 15px 100px;
     margin: -10px;
     border: 1px solid #0aff00;
     border-radius: 5px;
