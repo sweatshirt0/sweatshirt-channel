@@ -143,9 +143,9 @@ body {
 }
 
 .blog-button {
-    width: 275px;
+    //width: 275px;
     margin-top: 15px;
-    padding-right: -15px;
+    //padding-right: -15px;
     border-radius: 5px;
 }
 
@@ -154,10 +154,11 @@ body {
     display: flex;
     text-decoration: none;
     color: #0aff00;
-    padding-left: 110px;
-    padding-right: 150px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 115px 15px 105px;
+    //padding-left: 110px;
+    //padding-right: 150px;
+    //padding-top: 15px;
+    //padding-bottom: 15px;
     background-color: #111;
     font-size: 1.3rem;
     font-weight: bold;
@@ -188,19 +189,19 @@ img {
 }
 
 .hackmacs-button {
-    margin-top: 25px;
-    width: 260px;
+    margin-top: 26px;
+    //width: 270px;
     background-color: transparent;
     border: none;
 }
 
 .hackmacs-link {
     background-color: #111;
-    padding-left: 95px;
-    padding-right: 80px;
+    padding: 15px 90px 15px 85px;
+    //padding-right: 90px;
     margin: -15px -10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    //padding-top: 15px;
+    //padding-bottom: 15px;
     border: 1px solid #0aff00;
     border-radius: 5px;
     color: #0aff00;
@@ -222,14 +223,16 @@ img {
 
 .games-button {
     margin-top: 26px;
+    border: none;
+    background-color: transparent;
 }
 
 .games-link {
     background-color: #111;
     color: #0aff00;
     text-decoration: none;
-    padding: 15px 105px 15px 105px;
-    margin: -10px;
+    padding: 15px 100px 15px 105px;
+    margin: -5px;
     border: 1px solid #0aff00;
     border-radius: 5px;
     font-size: 1.2rem;
