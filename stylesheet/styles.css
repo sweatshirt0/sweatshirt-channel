@@ -139,7 +139,7 @@ body {
 
 .grid-item {
     margin-bottom: 25px;
-    margin-left: 15px;
+    margin-left: 12px;
 }
 
 .blog-button {
@@ -155,13 +155,13 @@ body {
     display: flex;
     text-decoration: none;
     color: #0aff00;
-    padding: 14px 115px 14px 110px;
+    padding: 15px 115px 15px 115px;
     //padding-left: 110px;
     //padding-right: 150px;
     //padding-top: 15px;
     //padding-bottom: 15px;
     background-color: #111;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin: -6px;
     border: 1px solid #0aff00;
@@ -232,7 +232,7 @@ img {
     background-color: #111;
     color: #0aff00;
     text-decoration: none;
-    padding: 15px 100px 15px 100px;
+    padding: 15px 102px 15px 100px;
     margin: -5px;
     border: 1px solid #0aff00;
     border-radius: 5px;
