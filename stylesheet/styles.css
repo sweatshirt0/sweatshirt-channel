@@ -144,7 +144,7 @@ body {
 
 .blog-button {
     //width: 275px;
-    margin-top: 15px;
+    margin-top: 16px;
     //padding-right: -15px;
     background-color: transparent;
     border: none;
@@ -197,6 +197,8 @@ img {
 }
 
 .hackmacs-link {
+    position: relative;
+    display: flex;
     background-color: #111;
     padding: 15px 90px 15px 85px;
     //padding-right: 90px;
@@ -223,16 +225,18 @@ img {
 }
 
 .games-button {
-    margin-top: 26px;
+    margin-top: 17px;
     border: none;
     background-color: transparent;
 }
 
 .games-link {
+    position: relative;
+    display: flex;
     background-color: #111;
     color: #0aff00;
     text-decoration: none;
-    padding: 15px 102px 15px 100px;
+    padding: 15px 102px 15px 102px;
     margin: -5px;
     border: 1px solid #0aff00;
     border-radius: 5px;
@@ -251,12 +255,14 @@ img {
 }
 
 .github-button {
-    margin-top: 26px;
+    margin-top: 20px;
     background: transparent;
     border: none;
 }
 
 .github-link {
+    position: relative;
+    display: flex;
     text-decoration: none;
     background-color: #111;
     padding: 15px 105px 15px 105px;
@@ -276,12 +282,14 @@ img {
 }
 
 .gittea-button {
-    margin-top: 26px;
+    margin-top: 20px;
     border: none;
     background-color: transparent;
 }
 
 .gittea-link {
+    position: relative;
+    display: flex;
     text-decoration: none;
     background-color: #111;
     padding: 15px 105px 15px 105px;
@@ -301,12 +309,14 @@ img {
 }
 
 .libcasa-button {
-    margin-top: 26px;
+    margin-top: 20px;
     background-color: transparent;
     border: none;
 }
 
 .libcasa-link {
+    position: relative;
+    display: flex;
     text-decoration: none;
     background-color: #111;
     padding: 15px 100px 15px 100px;
