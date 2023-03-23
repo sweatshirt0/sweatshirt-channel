@@ -252,6 +252,8 @@ img {
 
 .github-button {
     margin-top: 26px;
+    background: transparent;
+    border: none;
 }
 
 .github-link {
@@ -275,6 +277,8 @@ img {
 
 .gittea-button {
     margin-top: 26px;
+    border: none;
+    background-color: transparent;
 }
 
 .gittea-link {
@@ -298,6 +302,8 @@ img {
 
 .libcasa-button {
     margin-top: 26px;
+    background-color: transparent;
+    border: none;
 }
 
 .libcasa-link {
