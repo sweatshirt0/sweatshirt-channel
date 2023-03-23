@@ -189,13 +189,15 @@ img {
 
 .hackmacs-button {
     margin-top: 25px;
-    width: 275px;
+    width: 260px;
+    background-color: transparent;
+    border: none;
 }
 
 .hackmacs-link {
     background-color: #111;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 95px;
+    padding-right: 80px;
     margin: -15px -10px;
     padding-top: 15px;
     padding-bottom: 15px;
